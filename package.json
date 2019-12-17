@@ -1,0 +1,22 @@
+{
+  "name": "typescript-study-guide",
+  "version": "1.0.0",
+  "description": "ts 学习记录",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wayshon/typescript-study-guide.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wayshon/typescript-study-guide/issues"
+  },
+  "homepage": "https://github.com/wayshon/typescript-study-guide#readme",
+  "dependencies": {
+    "typescript": "^3.7.3"
+  }
+}
