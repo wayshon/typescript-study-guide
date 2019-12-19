@@ -1,11 +1,4 @@
-
-
-declare module Home {
-    interface IPeople {
-        show(): void;
-    }
+function reverse(x: string): string;
+function reverse(x: string, y: number): string {
+    return x;
 }
-let p: Home.IPeople;
-
-p.name = '666';
-p.show();
