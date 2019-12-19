@@ -1,5 +1,6 @@
 # typescript-study-guide
 
+### 基础
 - 类型推论
   - 声明变量不赋值会认为是any
   - 如果赋值就会默认变量是当前值的类型
@@ -13,10 +14,15 @@
   - 可选参数必须接在必需参数后面
   - 如果给可选参数变成了给默认值，后面就可以接必选参数了
   - 剩余参数 `...items: any[]`
-  - <font color='red'>函数重载的多次声明没整明白，为什么加上 `declare` 就不抱错</font>
+  - <b>函数重载的多次声明没整明白，为什么加上 `declare` 就不抱错</b>
 - declare
   - namespace就是个命名空间，打头的，相当于把很多声明变成了他后代，用点语法取，而不用所有的声明都做成全局的
-  - <font color='red'>type 与 interface 类似，究竟哪里不同呢</font>
+  - <b>type 与 interface 类似，究竟哪里不同呢</b>
   - 声明合并会组合多个声明语句，它们会不冲突的合并起来
-  - <font color='red'>interface 前是不需要 declare 的   why???</font>
+  - <b>interface 前是不需要 declare 的   why???</b>
+  - declare module 可以扩展原有模块
+  - 使用 declare global 可以在 npm 包或者 UMD 库的声明文件中扩展全局变量的类型
   
+### 进阶
+- type 用来声明别名，字符串字面量类型
+
