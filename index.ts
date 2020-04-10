@@ -1,11 +1,10 @@
-
-
-declare module Home {
-    interface IPeople {
-        show(): void;
-    }
+declare namespace MM {
+    interface A {}
 }
-let p: Home.IPeople;
 
-p.name = '666';
-p.show();
+declare namespace MM {
+    interface B {}
+}
+
+let a: MM.A;
+let b: MM.B;
