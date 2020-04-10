@@ -1,10 +1,4 @@
-declare namespace MM {
-    interface A {}
+function reverse(x: string): string;
+function reverse(x: string, y: number): string {
+    return x;
 }
-
-declare namespace MM {
-    interface B {}
-}
-
-let a: MM.A;
-let b: MM.B;
